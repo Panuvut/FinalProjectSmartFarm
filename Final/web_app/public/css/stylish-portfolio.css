@@ -1,0 +1,36 @@
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    position: absolute;
+
+    display: table;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+    background: url(../img/bg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+    resize: none;
+
+}
+.header img {
+    width: auto;
+    height: auto;
+}
+.delay-hide {
+    transition: all linear 5.0s;
+    opacity: 1;
+}
+.delay-hide.ng-hide {
+    opacity:0;
+}

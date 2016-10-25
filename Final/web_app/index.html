@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <!-- jQuery -->
+ <script src="js/angular-1.5.8/angular.js"></script>
+<script src="js/angular-1.5.8/angular.min.js"></script>
+<script src="js/angular-1.5.8/angular-animate.js"></script>
+<script src="js/angular-1.5.8/angular-animate.min.js"></script>
+
+<script src="js/jquery.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/appservice.js"></script>
+<script src="js/appcontroller.js"></script>
+
+
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>test</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    
+</head>
+
+<body>
+
+
+    <!-- Header -->
+    <header class="header">
+        <div ng-app="myApp" ng-controller="myCtrl" ng-init="test = 1">
+                {{test}}
+                <br>
+                <label>Input name</label>
+                <br>
+                <input ng-model="name">
+                <br>
+                <label>Input duration</label>
+                <br>
+                <input ng-model="duration">
+                <br>
+                <label>Input high_temperature</label>
+                <br>
+                <input ng-model="high_temperature">
+                <br>
+                <label>Input low_temperature</label>
+                <br>
+                <input ng-model="low_temperature">
+                <br>
+                <label>Input high_moisture</label>
+                <br>
+                <input ng-model="high_moisture">
+                <br>
+                <label>Input low_moisture</label>
+                <br>
+                <input ng-model="low_moisture">
+                <br>
+                <label>Input high_ph</label>
+                <br>
+                <input ng-model="high_ph">
+                <br>
+                <label>Input low_ph</label>
+                <br>
+                <input ng-model="low_ph">
+                <br>
+                <label>Input etc</label>
+                <br>
+                <input ng-model="etc">
+                <br>
+                <button type="submit" ng-click = "myfunction()">Submit</button>
+        
+         </div>
+    </header>
+
+
+    
+   
+<!-- ng-disabled="buttom" -->
+
+</body>
+
+</html>
